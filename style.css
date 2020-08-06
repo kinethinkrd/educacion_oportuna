@@ -1,0 +1,590 @@
+body {
+  font-family: 'roboto', sans-serif;
+  letter-spacing: initial;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/*
+Verde oscuro: #215968
+Verde claro: #009C84
+Naranja: #F17C00
+Crema: #FDEADA
+
+ */
+
+/*¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶ pallet color ¶¶¶¶¶¶*/
+#hero                 { background-color: white; color: #215968; }
+  #hero .arrow-box    { background-color: #FDEADA; }
+  #hero .arrow        { border-color: white transparent transparent transparent; }
+
+#one                  { background-color: #FDEADA; color: #215968; }
+  #one .arrow-box     { background-color: white; }
+  #one .arrow         { border-color: #FDEADA transparent transparent transparent; }
+
+#two                  { background-color: white; color: #215968; }
+  #two .arrow-box     { background-color: #FDEADA; }
+  #two .arrow         { border-color: white transparent transparent transparent; }
+
+#three                  { background-color: #FDEADA; color: #215968; }
+  #three .arrow-box     { background-color: white; }
+  #three .arrow         { border-color: #FDEADA transparent transparent transparent; }  
+
+#four                  { background-color: white; color: #215968; }
+  #four .arrow-box     { background-color: #FDEADA; }
+  #four .arrow         { border-color: white transparent transparent transparent; }
+
+#five                  { background-color: #FDEADA; color: #215968; }
+  #five .arrow-box     { background-color: white; }
+  #five .arrow         { border-color: #FDEADA transparent transparent transparent; }
+
+#six                  { background-color: white; color: #215968; }
+  #six .arrow-box     { background-color: #FDEADA; }
+  #six .arrow         { border-color: white transparent transparent transparent; }
+
+#seven                  { background-color: #FDEADA; color: #215968; }
+  #seve .arrow-box     { background-color: white; }
+  #seven .arrow         { border-color: #FDEADA transparent transparent transparent; }
+
+#last                { background-color: white; color: #215968; }
+  #footer             { background-color: rgba(0,0,0,0.5); color: #ff2b63; }
+
+/*********************** My css desktop *******************************/
+/* --------------- Hero page ---------------- */
+#hero h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+#hero h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-top: 0px;
+  color: #F17C00;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.logo {
+  margin: 5px auto;
+  padding: 0 auto;
+  display: block;
+  height: 200px;
+}
+.edades {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#hero p {
+text-align: center;
+letter-spacing: initial;
+line-height: 1.5;
+font-size: 1.4rem;
+padding: 0;
+}
+
+.email {margin-left: 10px;}
+
+/*-------------- section one ----------------*/
+#one h1, #two h1{
+color: #F17C00;
+font-size: 2.5rem;
+margin: 30px;
+padding: 0;
+}
+
+#one p {
+text-align: justify;
+letter-spacing: initial;
+line-height: 2;
+font-size: 1.3rem;
+margin: 30px auto;
+padding: 0;
+}
+
+/* Section Two */
+#two li {
+  text-align: left;
+  margin-bottom: 10px;
+  letter-spacing: initial;
+  line-height: 1.5;
+  font-size: 1.3rem;
+}
+
+.kids {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.kids img {
+  height: 200px;
+  margin: 0 10px;
+  border-radius: 30px;
+}
+
+/* Section three */
+#three h1 {
+  color: #215968;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 3em;
+}
+.modalidades {
+  height: 65%;
+  border-radius: 5%;
+  box-shadow:
+  0 5px 4px rgba(0, 0, 0, 0.05),
+  0 10px 8px rgba(0, 0, 0, 0.06),
+  0 20px 16px rgba(0, 0, 0, 0.07),
+  0 25px 23px rgba(0, 0, 0, 0.09),
+  0 50px 45px rgba(0, 0, 0, 0.1),
+  0 100px 90px rgba(0, 0, 0, 0.12)
+;
+}
+/* Section Four: Independiente */
+
+#four{
+  display: block;
+}
+
+#four ul, #four h2{
+  width: 800px;
+  text-align: left;
+  margin: 8px auto;
+  padding: 5px;
+}
+
+#four h1 {
+  width: 800px;
+  text-align: center;
+  font-size: 3em;
+  margin: 15px auto;
+  padding: 10px;
+}
+
+#four h2{  
+  color: #F17C00;
+  font-size: 1.8em;
+  }
+
+#four li{
+  font-size: 1.1em;
+  color: #009C84;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}  
+
+#four table {
+  margin: 30px auto;
+  width: 40%;
+  font-size: 1em;
+  border: 1px white;
+}
+
+#four thead th, #five thead th, #six thead th {
+  background: #F17C00
+  }
+
+#four tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid white;
+  margin-bottom: 1px;
+}
+
+#four th, #four td {
+  padding: 5px;
+  text-align: center;
+  border: solid 1px white;
+}
+
+/* Section Five: Semipresencial */
+#five, #six{
+  display: block;
+}
+
+#five ul, #five h2, #six ul, #six h2{
+  width: 800px;
+  text-align: left;
+  margin: 5px auto;
+  padding: 2px;
+}
+
+#five h1, #six h1 {
+  width: 800px;
+  text-align: center;
+  font-size: 3em;
+  margin: 15px auto;
+  padding: 8px;
+}
+
+#five h2, #six h2{  
+  color: #F17C00;
+  font-size: 1.8em;
+  }
+
+#five li, #six li{
+  font-size: 1.1em;
+  color: #009C84;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}  
+
+#five table, #six table {
+  margin: 20px auto;
+  width: 40%;
+  font-size: 1em;
+  border: 1px white;
+}
+
+#five tr, #six tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid white;
+  margin-bottom: 1px;
+}
+
+#five th, #fvie td,
+#five th, #fvie td {
+  padding: 5px;
+  text-align: center;
+  border: solid 1px white;
+}
+
+/* Last section */
+
+  margin-top: 70px;#last {
+  display: block;
+}
+
+#last img {
+  display: block;
+  margin-top: 150px;
+}
+
+#last p {
+  width: 600px;
+  font-size: 1.2rem;
+}
+
+#last h1, #last h2, #last h3, #last h4, #last div {
+  width: 600px;
+  margin: auto;
+}
+
+.tel, .mail {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.ig{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+p.dir {
+  margin-bottom: 70px;
+}
+
+#last img {
+  height: 100px;
+}
+
+#last h3 {
+  font-size: 1.5em;
+  color: #984807;
+}
+
+#last h4 {
+  font-size: 1em;
+  font-weight: 400;
+  color: #984807;
+}
+
+#seven img {
+  width: 180px;
+}
+
+#seven p {
+  width: 40%;
+}
+form * {
+  display: block;
+  text-align: left;
+  width: 300px;
+  margin: auto;
+}
+
+form #send {
+  width: 100px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #009C84;
+  border:solid 1px #215968;
+  color: white;
+  font-size: 1em;
+}
+
+form #send:hover {
+  background-color: #F17C00;
+  cursor: pointer;
+}
+
+input, textarea {
+  background-color: #FDEADA;
+  border: solid 1px gray;
+}
+
+textarea{
+  height: 200px;
+}
+
+
+/* #984807 */
+
+
+/*¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶ navigation ¶¶¶¶¶¶*/
+#nav-container {
+  position: fixed;
+  left: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99;
+}
+#menu {
+  display: block;
+  list-style-type: none;
+  margin-left: -2.5em;
+}
+#menu li a {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  flex-direction: column;
+  height: 15px;
+  margin: 1.5em 0;
+  width: 15px;
+}
+#nav { display: none; }
+.link {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  color: #fff;
+  height: 15px;
+  margin: 1.5em 0;
+  width: 15px;
+}
+.link-active {background-color: #fff;}
+@media screen and (max-width: 600px) {
+  #nav { display: block; }
+  #menu { display: none; }
+}
+
+/*¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶ general ¶¶¶¶¶¶*/
+#fullpage {
+  position: relative;
+  width: 100%;
+}
+.section {  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+.section > p, .section h1 {
+  max-width: 800px;
+  padding: 0.8em;
+}
+.section p { width: 80%; }
+.arrow-box {
+  bottom: 0;
+  height: 20px;
+  position: absolute;
+  width: 100%;
+}
+.arrow {  
+  border-style: solid;
+  border-width: 15px 15px 0 15px;
+  height: 0;
+  margin: 0 auto;
+  width: 0;
+}
+/*¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶ icon ¶¶¶¶¶¶*/
+.icon-box {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 700px;
+}
+.icon {
+  align-items: center;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  border-radius: 10%;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: center;
+  height: 50px;
+  margin: 0.3em;
+  width: 200px;
+  color:#009C84;
+}
+.icon:hover {
+  transform: scale(1.5);
+}
+/*¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶ three ¶¶¶¶¶¶*/
+#last {
+  justify-content: space-between;
+}
+.last-text-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+}
+#footer {
+  align-items: center;
+  display: flex;
+  height: 20vh;
+  width: 100%;
+}
+#footer p {
+  margin: auto;
+}
+#link {
+  bottom: 20px;
+  color: #fff;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#link p {font-size: 0.8em; margin: 0; margin-left: 5px;}
+#link:hover {opacity: 1;}
+
+/*
+#four li, #five li, #six li {
+  text-align: left;
+  font-size: 1.1em;
+  width: 90%;
+  color: #009C84;
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+#four h1, #five h1, #six h1 {
+  color: #215968;
+  margin: auto;
+  font-size: 3.2rem;
+  padding: 5px auto;
+}
+
+#four ul, #four h2 {
+  width: 60%;
+  margin: 0  auto;
+  padding: 0;
+}
+
+#four h2, #five h2, #six h2{  
+  text-align: left;
+  color: #F17C00;
+  font-size: 1.8rem;
+  display: block;
+  position: relative;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  }
+
+#four table {
+  margin: 20px auto;
+  margin-top: 0px;
+  width: 40%;
+  font-size: 1rem;
+  border: 3px white;
+}
+
+#four thead th, #five thead th, #six thead th {
+  background: #F17C00
+  }
+
+#four tr {
+  background: #f4f7f8;
+  border-bottom: 3px solid white;
+  margin-bottom: 1px;
+}
+
+#four th, #four td {
+  padding: 5px;
+  text-align: center;
+  border: solid 3px white;
+}
+
+#five ul, #six ul, #five h2, #six h2 {
+  width: 70%;
+  margin: 0 auto;
+}
+*/
+/* Section five */
+/*
+
+.cb {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}*/
+
+
+/*
+#five table{
+  margin: 10px auto;
+  margin-top: 10px;
+  width: 50%;
+  font-size: 1rem;
+  border: 3px white;
+}
+
+
+#five tr {
+  background: #f4f7f8;
+  border-bottom: 3px solid white;
+}
+
+#five th, #five td{
+  padding: 5px;
+  text-align: center;
+  border: solid 3px white;
+}
+
+#six table{
+  margin: 20px auto;
+  margin-top: 20px;
+  width: 50%;
+  font-size: 1.2rem;
+  border: 3px white;
+}
+
+
+#six tr {
+  background: #f4f7f8;
+  border-bottom: 3px solid white;
+  margin-bottom: 1px;
+}
+
+#six th, #five td{
+  padding: 5px;
+  text-align: center;
+  border: solid 3px white;
+}
+*/
