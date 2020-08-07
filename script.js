@@ -68,7 +68,7 @@ $(document).ready(function() {
   else {
      //alert('desktop'); 
     $('#fullpage').fullpage({
-      anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+      anchors: ['presentacion', 'educacion_oportuna', 'razones', 'modalidades', 'independiente', 'semipresencial', 'presencial', 'contacto', 'ultima'],
       autoScrolling: true,      //scroll
       verticalCentered: false   //flex
     });
