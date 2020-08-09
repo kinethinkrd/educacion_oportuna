@@ -244,5 +244,54 @@ p.dir {
   color: #984807;
 }
 
+#seven img {
+  width: 380px;
+}
+
+#seven p {
+  width: 90%;
+  font-size: 2em;
+}
+form * {
+  display: block;
+  text-align: left;
+  width: 600px;
+  margin: auto;
+}
+
+form #send {
+  width: 200px;
+  text-align: center;
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #009C84;
+  border:solid 1px #215968;
+  color: white;
+  font-size: 2em;
+  height: 100px;
+}
+
+form #send:hover {
+  background-color: #F17C00;
+  cursor: pointer;
+}
+
+input, textarea {
+  background-color: #FDEADA;
+  border: solid 1px gray;
+}
+
+label{
+  font-size: 2em;
+}
+
+input {
+  height: 50px;
+}
+
+textarea{
+  height: 300px;
+}
+
 
 }
